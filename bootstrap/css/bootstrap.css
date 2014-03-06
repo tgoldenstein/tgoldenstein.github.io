@@ -94,6 +94,11 @@ li {
   float:left;
 }
 
+@media (min-width: 320px) {
+  .mug {
+    align:center;
+  }
+
 .my_lists {
   list-style-type:square;
 }
