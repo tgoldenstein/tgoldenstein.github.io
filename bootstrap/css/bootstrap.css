@@ -82,11 +82,10 @@ li {
   font-size:1em;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 320px) {
   .body_text {
     padding-top:6em;
   }
-}
 
 .mug {
   padding: 40px 20px 20px 20px;
@@ -99,7 +98,6 @@ li {
   .mug {
     align:center;
   }
-}
 
 .my_lists {
   list-style-type:square;
