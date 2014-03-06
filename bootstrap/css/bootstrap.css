@@ -43,7 +43,7 @@ li {
   text-align: center;
   color: #8DD6C8;
   height:0.8em;
-  position:absolute;
+  position:relative;
 }
 
 .stripe {
