@@ -82,6 +82,11 @@ li {
   font-size:1em;
 }
 
+@media (min-width: 768px) {
+  .body_text {
+    padding-top:6em;
+  }
+
 .mug {
   align:center;
   padding: 40px 20px 20px 20px;
