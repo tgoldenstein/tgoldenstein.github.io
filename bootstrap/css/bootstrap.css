@@ -82,7 +82,7 @@ li {
   font-size:1em;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 480px) {
   .body_text {
     padding-top:6em;
   }
