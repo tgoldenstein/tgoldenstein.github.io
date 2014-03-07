@@ -75,7 +75,7 @@ li {
 
 .body_text {
   color:#969696;
-  padding-top:3em;
+  padding-top:6em;
   padding-left:5em;
   padding-right:4em;
   font-family: Raleway, sans-serif;
@@ -89,16 +89,12 @@ li {
   }*/
 
 .mug {
-  padding: 40px 20px 20px 20px;
-  height:345px;
-  width:228px;
+  margin:40px 20px 20px 50px;
+  height:280px;
+  width:185px;
   float:left;
+  border-radius:10px;
 }
-
-/*@media (min-width: 320px) {
-  .mug {
-    align:center;
-  }*/
 
 .my_lists {
   list-style-type:square;
