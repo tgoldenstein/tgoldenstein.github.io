@@ -75,9 +75,7 @@ li {
 
 .body_text {
   color:#969696;
-  padding-top:6em;
-  padding-left:5em;
-  padding-right:4em;
+  padding-top:3em;
   font-family: Raleway, sans-serif;
   font-weight:300;
   font-size:1em;
@@ -89,7 +87,7 @@ li {
   }*/
 
 .mug {
-  margin:40px 20px 20px 50px;
+  margin:40px;
   height:280px;
   width:185px;
   float:left;
@@ -98,6 +96,11 @@ li {
 
 .my_lists {
   list-style-type:square;
+}
+
+.highlighted {
+  margin-left:-20px;
+  margin-bottom: 0;
 }
 
 /*!
@@ -376,7 +379,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Raleway, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #333;
   background-color: #fff;
@@ -464,7 +467,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: denseregular;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
