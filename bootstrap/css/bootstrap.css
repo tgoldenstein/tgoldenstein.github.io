@@ -37,6 +37,15 @@ li {
     font-style: normal;
 }
 
+@font-face{ 
+  font-family: 'Bebas Neue';
+  src: url('BebasNeue-webfont.eot');
+  src: url('BebasNeue-webfont.eot?iefix') format('eot'),
+       url('BebasNeue-webfont.woff') format('woff'),
+       url('BebasNeue-webfont.ttf') format('truetype'),
+       url('BebasNeue-webfont.svg#BebasNeue-webfont') format('svg');
+}
+
 #title {
   font-family:denseregular;
   font-size:4em;
@@ -101,6 +110,26 @@ li {
 .highlighted {
   margin-left:-20px;
   margin-bottom: 0;
+}
+
+.category {
+  font-family: Bebas Neue;
+  margin: 0px 0px 10px 0px;
+}
+.pubname {
+  font-family: Bebas Neue;
+  margin: 0px 0px 5px 0px;
+}
+.pubdesc {
+  font-family: denseregular;
+  margin: 0px 0px 5px 0px;
+}
+.posdesc {
+  font-family: denseregular;
+  margin: 0px 0px 5px 0px;
+}
+.resumechunk {
+  padding-bottom: 10px;
 }
 
 /*!
@@ -500,15 +529,6 @@ h6 .small,
   line-height: 1;
   color: #999;
 }
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
 h1 small,
 .h1 small,
 h2 small,
@@ -522,15 +542,6 @@ h2 .small,
 h3 .small,
 .h3 .small {
   font-size: 65%;
-}
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 h4 small,
 .h4 small,
@@ -552,15 +563,15 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 2.3em;
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 1.5em;
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 1.7em;
 }
 h5,
 .h5 {
@@ -676,6 +687,12 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px;
+  padding: 0px;
+}
+.bullets > li {
+  font-family: denseregular;
+  font-size:22px;
+  padding-bottom: 5px;
 }
 ul ul,
 ol ul,
