@@ -1,3 +1,5 @@
+/*need to fix padding on clips page or just, you know, redo it completely. also want to make nav and title static*/
+
 html, body
 {
   width: 100%;
@@ -48,12 +50,19 @@ li {
 
 #title {
   font-family:denseregular;
-  font-size:4em;
-  padding-left:2em;
+  font-size: 4em;
   text-align: left;
+  padding-left: 1em;
   color: #8DD6C8;
   height:0.8em;
   position:relative;
+}
+@media (max-width: 480px) {
+  #title {
+    font-size: 3em;
+    text-align: center;
+    padding: 0px;
+  }
 }
 
 .stripe {
