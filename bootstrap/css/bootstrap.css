@@ -149,6 +149,22 @@ li {
   padding-bottom: 10px;
 }
 
+#push {
+  height:10em;
+}
+
+.icons {
+  font-size:1.4em;
+  color:#969696;
+  text-align: center;
+  padding-right:1em;
+}
+
+.icons a.icons:hover {
+  font-size:1.4em;
+  color: #8DD6C8;
+}
+
 /*!
  * Bootstrap v3.1.1 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
@@ -875,6 +891,7 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
+  padding-top:1em;
 }
 @media (min-width: 768px) {
   .container {
