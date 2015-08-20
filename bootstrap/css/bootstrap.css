@@ -89,7 +89,7 @@ li {
 
 .custom {
   font-family:Oswald;
-  font-size:1.2em;
+  font-size:1.4em;
 }
 
 /*@media (min-width: 768px){
@@ -104,7 +104,7 @@ li {
   /* padding-top:2em; */
   font-family: Raleway, sans-serif;
   font-weight:300;
-  font-size:1em;
+  font-size:1.3em;
   margin:2em;
 }
 
@@ -165,6 +165,12 @@ li {
   color:#969696;
   text-align: center;
   padding-right:1em;
+  margin: 0;
+}
+.icons_no_pad_right {
+  font-size:1.4em;
+  color:#969696;
+  text-align: center;
 }
 
 .icons a.icons:hover {
@@ -449,7 +455,7 @@ html {
 }
 body {
   font-family: Raleway, Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 1.1em;
   color: #333;
   background-color: #fff;
 }
@@ -899,7 +905,7 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-top:1em;
+  width: 100%;
 }
 @media (min-width: 768px) {
   .container {
