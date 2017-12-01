@@ -102,7 +102,7 @@ li {
 .body_text {
   color:#000000;
   /* padding-top:2em; */
-  font-family: Raleway, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight:300;
   font-size:1.3em;
   margin:2em;
@@ -142,16 +142,17 @@ li {
   margin: 0px 0px 5px 0px;
 }
 .pubdesc {
-  font-family: denseregular;
+  font-family: 'Open Sans';
   margin: 0px 0px 5px 0px;
 }
 .posdesc {
-  font-family: denseregular;
+  font-family: 'Open Sans';
   margin: 0px 0px 5px 0px;
+  padding-top:5px;
 }
-.resumechunk {
+/*.resumechunk {
   padding-bottom: 10px;
-}
+}*/
 
 #push {
   height:10em;
@@ -404,7 +405,7 @@ th {
   p,
   h2,
   h3 {
-    font-family:denseregular;
+    font-family:'Open Sans';
     orphans: 3;
     widows: 3;
   }
@@ -617,7 +618,7 @@ h3,
 }
 h4,
 .h4 {
-  font-size: 1.7em;
+  font-size: 1em;
 }
 h5,
 .h5 {
@@ -737,7 +738,7 @@ ol {
   list-style-position: inside;
 }
 .bullets > li {
-  font-family: Raleway;
+  font-family: 'Open Sans';
   font-size: 1em;
   padding-bottom: 5px;
 }
