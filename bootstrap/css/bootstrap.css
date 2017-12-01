@@ -129,6 +129,10 @@ li {
   padding-bottom: 5px;
 }
 
+.my_lists > li > a {
+  font-weight: bold;
+}
+
 .highlighted {
   margin-bottom: 0;
 }
@@ -455,7 +459,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: Raleway, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 1.1em;
   color: #333;
   background-color: #fff;
