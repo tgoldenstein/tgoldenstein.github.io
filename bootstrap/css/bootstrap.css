@@ -147,6 +147,7 @@ li {
 }
 .pubdesc {
   font-family: 'Open Sans';
+  font-weight: bold;
   margin: 0px 0px 5px 0px;
 }
 .posdesc {
